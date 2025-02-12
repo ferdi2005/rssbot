@@ -79,3 +79,7 @@ gem 'net-imap', require: false
 gem 'net-pop', require: false
 
 gem 'open-uri'
+
+gem "wikinotizie", "~> 1.0"
+
+gem "mediawiki_api", "~> 0.9.0"
