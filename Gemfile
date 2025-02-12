@@ -50,12 +50,12 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
 
-  gem 'capistrano',         require: false
+  gem 'capistrano',  "~> 3.17.0",       require: false
   gem 'capistrano-yarn',     require: false
   gem 'capistrano-rvm',     require: false
   gem 'capistrano-rails',   require: false
   gem 'capistrano-bundler', require: false
-  gem 'capistrano3-puma',   require: false
+  gem "capistrano3-puma", "5.0.0", require: false
   gem 'capistrano-sidekiq', require: false
 end
 
@@ -79,7 +79,3 @@ gem 'net-imap', require: false
 gem 'net-pop', require: false
 
 gem 'open-uri'
-
-gem "wikinotizie", "~> 1.0"
-
-gem "mediawiki_api", "~> 0.9.0"
